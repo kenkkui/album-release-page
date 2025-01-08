@@ -1,3 +1,9 @@
+import TrackList from "@/components/TrackList";
+
 export default function Home() {
-  return <></>;
+  return (
+    <div className="px-[136px]">
+      <TrackList />
+    </div>
+  );
 }

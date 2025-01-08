@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --white: #fdfdfd;
+  --dark-grey: #383838;
+  --blue: #1e90ff;
+}
+
+@font-face {
+  font-family: "General Sans";
+  src: url("../public/fonts/GeneralSans-Variable.woff") format("woff"),
+    url("../public/fonts/GeneralSans-VariableItalic.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../public/fonts/Montserrat-Italic-VariableFont_wght.ttf")
+      format("ttf"),
+    url("../public/fonts/Montserrat-VariableFont_wght.ttf") format("ttf");
+  font-display: swap;
+}

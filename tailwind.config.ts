@@ -7,10 +7,20 @@ export default {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      generalSans: "General Sans",
+      montserrat: "Montserrat",
+    },
+    fontSize: {
+      subheading: ["35px", { fontWeight: 200 }],
+      "song-title": ["18px", { fontWeight: 600 }],
+      artist: ["14px", { fontWeight: 600 }],
+    },
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        white: "var(--white)",
+        "dark-grey": "var(--dark-grey)",
+        blue: "var(--blue)",
       },
     },
   },
